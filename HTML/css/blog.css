@@ -1,0 +1,26 @@
+/*
+classes can be select with "."
+ID select with "#"
+
+selector{
+    
+}
+
+*/
+
+
+
+.container{
+
+    background-color:black;
+    color:white;
+}
+
+.container ul{
+    list-style-type: none;
+}
+
+.container ul li a{
+    text-decoration: none;
+    color:red;
+}
