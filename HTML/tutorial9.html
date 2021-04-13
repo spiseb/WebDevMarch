@@ -95,7 +95,7 @@
         <article>
             <h2>Vote:</h2>
             <form>
-
+                <input type="text" value="root"/ readonly disabled>
                 <input type="radio" name="vote" value="Color A"/>
                 <label>ColorA</label>
                 <input type="radio" name="vote" value="Color B"/>
@@ -105,8 +105,14 @@
                 <label>Root</label>
                 <input type="checkbox" name="user2" value="admin"/>
                 <label>Admin</label>
-
-                <input type="submit" value="Send it to server"/>
+                <input type="text" maxlength="4" placeholder="PIN"/><br>
+                <input type="submit" value="Send it to server"/><br>
+                <input type="number" min="1" max="5"/><br>
+                <textarea rows="10" cols="40" >
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus a asperiores debitis non ex eaque similique dicta! Quasi nam ipsum officia, error ea nostrum numquam, repudiandae asperiores quod libero ipsa.
+                </textarea><br>
+                <!-- 0444 111 11 11 -->
+                <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{2}-[0-9]{2}"/>
             </form>
 
         </article>
