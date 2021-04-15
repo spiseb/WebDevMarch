@@ -1,0 +1,86 @@
+.abc{
+    background-color: cornflowerblue;
+}
+
+.cde{
+    padding: 10px;
+}
+
+.intecbrussel > span {
+    color:maroon;
+    font-weight: 900;
+    font-size: large;
+}
+
+.abc .intecbrussel {
+
+    background-color: rgb(211, 211, 212);
+    padding: 10px;
+}
+
+
+.abc + .intecbrussel a{
+    text-decoration: none;
+}
+
+.jackson p,h6,span{
+    color:red
+}
+
+
+
+p,h6,span{
+    color:rgb(0, 0, 0);
+    font-size: large;
+}
+
+.jackson {
+    color:brown !important
+}
+
+/* BORDER STYLE PROPERTY */
+
+div {
+    border-radius:10px 0px 10px 0px;
+    padding:20px;
+    border-style:dotted dashed
+}
+
+.myButton{
+    background-color: rgb(99, 245, 1);
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    padding: 10px;
+    border-radius:10em
+}
+
+.myButton:hover{
+    background-color: rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px;
+
+}
+
+.myButton:focus{
+    background-color: rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius:10px;
+}
+
+
+.circle{
+    background-color: black;
+    padding:3em;
+    width: 100px;
+    height: 100px;
+    border-radius:20em;
+    background-image: url(https://lwlies.com/wp-content/uploads/2017/04/avatar-2009.jpg);
+
+}
+

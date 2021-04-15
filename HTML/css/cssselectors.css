@@ -1,0 +1,42 @@
+* {
+    color:rgb(255, 0, 43)  !important
+}
+
+p {
+    color: blue !important
+}
+
+input {
+    background-color: black
+}
+
+/* ID Selector */
+
+#content{
+    background-color: rgb(212, 211, 211);
+}
+
+/* class selector */
+
+/* intec brussel webdevclass */
+
+.intec {
+    background-color: green !important;
+}
+
+.brussel {
+    background-color: rgb(125, 127, 241) !important;
+}
+
+.webdevclass{
+    font-size: large;
+}
+
+
+.intec header h1{
+    color:chartreuse !important;
+}
+
+.brussel article * {
+    font-weight: 900;
+}
