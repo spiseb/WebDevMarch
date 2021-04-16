@@ -1,5 +1,17 @@
+/* import font in to css */
+@font-face{
+
+    font-family: 'mySpecialFont';
+    src: url('./lilly.otf');
+    
+}
+/* import font in to css */
+
+
 .wrapper{
     text-align: center;
+    font-family: mySpecialFont;
+    
 }
 
 .box{
