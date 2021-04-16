@@ -1,0 +1,14 @@
+.wrapper{
+    text-align: center;
+}
+
+.box{
+    background-color: rgb(226, 225, 225);
+    padding: 1em;
+    width: 50%;
+    height: 300px;
+    margin:0 auto;
+    border-width: 20px;
+    border-style: solid;
+    border-image: url(https://www.tomswallpapers.com/images/201507/tomswallpapers.com_28604.jpg) 11 11 round;
+}

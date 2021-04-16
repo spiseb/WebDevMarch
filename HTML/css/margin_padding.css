@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+
+/* div {
+    background-color: white;
+    margin:20px;
+    padding:20px;
+    border:20px solid rgb(255, 255, 255)
+} */
+
+.test{
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: green;
+}
+
+.boxmodel{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 0.5em;
+    border:2px solid white;
+    float:right;
+    padding:0.5em
+}
+
+
+
+.links{
+    width: 400px;
+    height: 300px;
+    padding:10px;
+}
+
+.links ul {
+    list-style-type:upper-roman;
+}
+
+.links ul li a{
+    color:red;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color:black;
+
+}
+
+.links ul li a:active{
+    color:blue;
+}
+
+.links ul li a:visited{
+    color:rgb(7, 22, 8);
+}
