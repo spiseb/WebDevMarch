@@ -75,7 +75,7 @@ body{
 /* FLEXBOX MODEL */
 
 .parentsbox{
-    display:block;
+    display:flex;
 }
 
 .child{
@@ -85,3 +85,23 @@ body{
 }
 
 /* END OF FLEXBOX MODEL */
+
+
+
+/* iphone resolution */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .parentsbox{
+        display:block;
+    }
+
+    #parent{
+        background-color: black;
+    }
+
+
+}
+
