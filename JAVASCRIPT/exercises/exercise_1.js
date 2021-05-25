@@ -75,3 +75,11 @@ addUser('Atilla','atilla@atilla.com','23232323','root','2323root')
 console.log(deleteUserById(4)); // deleted user id 4 > atilla
 console.log(getUsers());
 
+addUser('Atilla','atilla@atilla.com','23232323','root','2323root')
+addUser('Atilla','atilla@atilla.com','23232323','root','2323root')
+addUser('Atilla','atilla@atilla.com','23232323','root','2323root')
+addUser('Atilla','atilla@atilla.com','23232323','root','2323root')
+let newUser = User[User.length-1].id
+
+let makeItUniqe = newUser +=1
+console.log(makeItUniqe);
