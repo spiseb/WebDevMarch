@@ -79,3 +79,4 @@ addArtist();
     
 ) // anonym func itself
 () // callback anonym function
+
