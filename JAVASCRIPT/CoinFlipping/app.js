@@ -1,12 +1,12 @@
 let coin = document.querySelector('#coin')
 
 coin.addEventListener('click', function () {
-    var flipRandom = Math.random();
+    var random = Math.random();
     console.log('hello coin')
     coin.classList.remove('yazi')
     coin.classList.remove('tura')
     setTimeout(function () {
-        if (flipRandom <= 0.5) {
+        if (random <= 0.5) {
             coin.classList.add('heads')
         } else {
             coin.classList.add('tails')
