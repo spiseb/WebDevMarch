@@ -7,9 +7,9 @@ coin.addEventListener('click', function () {
     coin.classList.remove('tura')
     setTimeout(function () {
         if (flipRandom <= 0.5) {
-            coin.classList.add('tura')
+            coin.classList.add('heads')
         } else {
-            coin.classList.add('yazi')
+            coin.classList.add('tails')
         }
     }, 300)
 })
