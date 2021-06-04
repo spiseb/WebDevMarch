@@ -1,12 +1,12 @@
 let coin = document.querySelector('#oneEuro')
 
 coin.addEventListener('click', function () {
-    var random = Math.random();
+    var flipRandom = Math.random();
     console.log('hello coin')
-    coin.classList.remove('yazi')
-    coin.classList.remove('tura')
+    coin.classList.remove('heads')
+    coin.classList.remove('tails')
     setTimeout(function () {
-        if (random <= 0.5) {
+        if (flipRandom <= 5) {
             coin.classList.add('heads')
         } else {
             coin.classList.add('tails')
