@@ -1,4 +1,4 @@
-let coin = document.querySelector('#coin')
+let coin = document.querySelector('#oneEuro')
 
 coin.addEventListener('click', function () {
     var random = Math.random();
