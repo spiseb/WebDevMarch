@@ -1,7 +1,4 @@
-let coin = document.querySelector('#oneEuro')
-
-coin.addEventListener('click', function () {
-    console.log('hello coin')
+document.querySelector('#oneEuro').addEventListener('click', function () {
     coin.classList.remove('heads')
     coin.classList.remove('tails')
     const result = Math.random() < 0.5 ? 'heads' : 'tails';
