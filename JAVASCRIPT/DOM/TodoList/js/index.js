@@ -49,4 +49,13 @@ let newli = g('li')
 console.log(newli)
 
 
+let listOfTodos = document.querySelectorAll('.list-group-item')
+//console.log(listOfTodos )
+listOfTodos.forEach(e=> {
+    //console.log(e)
+    e.classList.add('display-4')
+   // e.remove(); //  remove targeted element
+    console.log(e.textContent) // get context of element
+
+})
 

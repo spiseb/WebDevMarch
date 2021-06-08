@@ -38,3 +38,44 @@ tr.appendChild(td_handle)
 table_body.appendChild(tr)
 
 console.log(tr) // template
+
+
+
+
+
+
+
+
+
+
+/*
+
+MAIN TOPICS
+
+JAVASCRIPT
+ * OOP {CLASSES}
+ * PROMISES SYNTAX
+ * ASYNC PROGRAMMING
+ * FETCH API { http requests get-post-delete-update }
+ * localStorage/sessionStorage
+ * 
+
+NODE.JS
+EXPRESS.JS
+1.5 MONTH
+
+REDUX
+USECONTEXT
+REACT.JS
+1.5 MONTH
+
+= 3
+
+DEPLOYMENT OF APP THEORY
+LINUX COMMANDS
+MONGODB/MySQL queries
+SAILS.JS > IF WE HAVE TIME IN THE END OF COURSE.
+
+3.5 MONTH
+
+*/
