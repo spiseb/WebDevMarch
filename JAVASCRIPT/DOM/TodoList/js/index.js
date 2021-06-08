@@ -59,3 +59,31 @@ listOfTodos.forEach(e=> {
 
 })
 
+
+
+
+
+
+
+function RemoveItem(e){
+    console.log(e.target.parentElement.parentElement)
+    e.target.parentElement.parentElement.remove()
+}
+
+let removeIcons = document.querySelectorAll('.fa-remove')
+console.log(removeIcons)
+
+removeIcons.forEach(x=>{
+    console.log(x)
+
+    x.addEventListener('click',RemoveItem)
+
+
+})
+
+
+
+// document.body.addEventListener('click',function(event){
+//     console.log(event.target)
+
+// })
